@@ -22,11 +22,14 @@ export function Footer() {
             <Mail className="w-5 h-5" />
           </a>
         </div>
-        <p>
+        <p className="flex items-center gap-1 text-sm text-muted-foreground">
           Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> usi
           Next.js & Tailwind CSS
         </p>
-        <p>Amarjargal Anton. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">
+          &copy; {new Date().getFullYear()}
+          Amarjargal Anton. All rights reserved.
+        </p>
       </div>
     </footer>
   );

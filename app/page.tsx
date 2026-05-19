@@ -10,9 +10,11 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <Profile />
-        <div />
+        <div className="border-t border-border" />
         <TechStack />
+        <div className="border-t border-border" />
         <AboutMe />
+        <div className="border-t border-border" />
         <ProjectSection />
         <Footer />
       </main>
